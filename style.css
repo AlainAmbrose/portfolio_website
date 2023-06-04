@@ -1,0 +1,58 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right, #9c27b0, #8ecdff);
+}
+
+img {
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+p.introduction {
+    font-family: courier;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: courier;
+    font-weight: bold;
+    text-align: left;
+}
+
+p:hover {
+    color: pink;
+}
+
+h1 {
+    text-align: center;
+}
